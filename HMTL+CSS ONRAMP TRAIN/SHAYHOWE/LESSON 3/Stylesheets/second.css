@@ -3,8 +3,9 @@ h1,h3 {
 }
 
 #food {
-        /*  #food will take precedence due to specificity weight 
-        being higher for the ID selector than the type <p> selector*/
+        /*  #food will take precedence due to specificity 
+        weight being higher for the ID selector than the 
+        type <p> selector*/
     background: green
 }
 
