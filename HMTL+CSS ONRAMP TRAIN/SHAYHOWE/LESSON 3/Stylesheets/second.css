@@ -17,6 +17,6 @@ body {
 .hotdog p {
     background: brown;
 }
-.hotdog p {
+.hotdog p.mustard {
     background: yellow;
 }
