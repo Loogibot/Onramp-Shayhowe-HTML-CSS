@@ -16,7 +16,7 @@ body {
 }
 
 .hotdog p {
-    background: brown;
+    background: teal;
 }
 .hotdog p.mustard {
     background: yellow;
@@ -32,4 +32,12 @@ body {
 
 .btn-success {
     background: green;
+}
+
+.task {
+    background: maroon;
+}
+
+.count {
+    background: purple;
 }
