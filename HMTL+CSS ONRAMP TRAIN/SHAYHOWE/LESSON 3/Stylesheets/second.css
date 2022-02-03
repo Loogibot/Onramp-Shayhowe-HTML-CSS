@@ -1,0 +1,22 @@
+h1,h3 {
+    color:darkblue
+}
+
+#food {
+        /*  #food will take precedence due to specificity weight 
+        being higher for the ID selector than the type <p> selector*/
+    background: green
+}
+
+body {
+    background: orange;
+
+    font-size: 24px;
+}
+
+.hotdog p {
+    background: brown;
+}
+.hotdog p {
+    background: yellow;
+}
