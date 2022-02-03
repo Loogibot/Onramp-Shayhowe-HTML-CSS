@@ -21,3 +21,15 @@ body {
 .hotdog p.mustard {
     background: yellow;
 }
+
+.btn {
+    font-size: 10px;
+}
+
+.btn-danger {
+    background: red;
+}
+
+.btn-success {
+    background: green;
+}
