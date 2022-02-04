@@ -10,13 +10,22 @@ h1,h3 {
 }
 
 p {
-    display: block;
+    display: inline-block;
 }
 
+div {
+    border: 1px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
 
 body {
     background: #ff3;
-
+    border: 3px dotted #549007;
+    border-radius: 20px;
+    padding: 20px;
     font-size: 24px;
 }
 

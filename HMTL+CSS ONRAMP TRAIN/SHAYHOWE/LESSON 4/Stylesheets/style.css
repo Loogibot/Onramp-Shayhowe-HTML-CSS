@@ -1,10 +1,5 @@
-h1,h3 {
-    color:darkslateblue
-}
-
-p {
-    background: orange;
-    background: green;
-    /* background will be green because the code 'cascades' from top to bottom style*/
-    font-size: 24px;
+div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    
 }
