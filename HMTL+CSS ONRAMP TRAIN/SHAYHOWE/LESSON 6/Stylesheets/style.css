@@ -1,10 +1,18 @@
+/*
+html text color
+*/
+
+html {
+    color: #b50
+}
+
 code {
-    background: #2db34a;
-    border-radius: 10px;
-    color: #fff;
+    background: #230;
+    border-radius: 20px;
     display: block;
     padding: 20px 30px;
-    text-align: center;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -29,18 +37,19 @@ is known as a clearfix or cf.
 }
 
 .logo {
-    border: 4px solid #648880;
-    padding: 40px 0 22px 0;
+    background: #b50;
+    border: 4px solid #a30;
+    padding: 20px 20px 20px 20;
     display: block;
-    float: left;
+    float: top;
 }
 
 .col-1-3 {
-    width: 33.33%;
+    width: 33%;
 }
 
 .col-2-3 {
-    width: 66.66%;
+    width: 66%;
 }
 
 .col-1-3,
@@ -54,7 +63,7 @@ is known as a clearfix or cf.
 .col-2-3 {
     padding-left: 15px;
     padding-right: 15px;
-    position: inherit;
+    width: 40%;
 }
 
 .primary-footer small {
@@ -68,14 +77,19 @@ is known as a clearfix or cf.
 
 section {
     float: left;
+    font-weight: bolder;
 }
 
 aside {
     float: right;
+    font-weight: 300;
 }
 
 body {
     clear: both;    
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
 }
 
 section,
@@ -84,5 +98,4 @@ aside,
 footer {
     display: inline-block;
     margin: 0 1.5% 24px 1.5%;
-    width: 40%;
 }
