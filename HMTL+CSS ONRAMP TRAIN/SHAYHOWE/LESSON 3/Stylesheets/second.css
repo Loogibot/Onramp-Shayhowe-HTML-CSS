@@ -1,0 +1,66 @@
+h1,h3 {
+    color:darkblue
+}
+
+#food {
+        /*  #food will take precedence due to specificity 
+        weight being higher for the ID selector than the 
+        type <p> selector*/
+    background: rgb(128, 128, 0)
+}
+
+body {
+    background: #ff3;
+
+    font-size: 24px;
+}
+
+.hotdog p {
+    background: rgba(15, 200, 0, .25);
+}
+.hotdog p.mustard {
+    background: rgba(55, 188, 0, 1);
+}
+
+.btn {
+    font-size: 10px;
+}
+
+.btn-danger {
+    background: hsl(0, 100, 75%);
+    /* HUE(0-360) SATURATION(0-100, 0=gray) 
+    LIGHTNESS(0-100, 0=black, 100=white */
+}
+
+.btn-success {
+    background: hsl(180, 100, 75%);
+    /* 
+    HUE(0-360) 
+    SATURATION(0-100, 0=gray) 
+    LIGHTNESS(0-100, 0=black, 100=white
+     */;
+}
+
+.task {
+    background: hsla(0, 100, 75%);
+    /* 
+    HUE(0-360) 
+    SATURATION(0-100, 0=gray) 
+    LIGHTNESS(0-100, 0=black, 100=white
+    ALPHA(.01-1, 1=100 opaque
+    */;
+}
+
+.count {
+    background: purple;
+}
+
+.col {
+    width: 50%;
+    color: #bbf;
+}
+
+.banner {
+    font-size: 20px;
+    width: 8em
+}

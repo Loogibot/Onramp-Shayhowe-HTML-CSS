@@ -1,0 +1,66 @@
+code {
+    background: #2db34a;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+/*
+Before and after creates a pseudo element, 
+without HTML content. The technique shown here 
+is known as a clearfix or cf.
+*/
+
+.group:before,
+.group:after {
+    content: "o";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+.logo {
+    border: 4px solid #648880;
+    padding: 40px 0 22px 0;
+    display: block;
+    float: left;
+}
+
+.primary-footer small {
+    float: left;
+}
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+section {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+body {
+    clear: both;    
+}
+
+section,
+body,
+aside,
+footer {
+    display: inline-block;
+    margin: 0 1.5% 24px 1.5%;
+    width: 40%;
+}
